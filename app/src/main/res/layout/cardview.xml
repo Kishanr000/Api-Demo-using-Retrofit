@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="@color/black"
+    app:cardBackgroundColor="#e1f5fe"
+    app:layout_constraintCircleRadius="16dp"
+    android:id="@+id/cardviews"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:textSize="16dp"
+            android:id="@+id/txtQuotes"
+            android:text="Your heart is the size of an ocean. Go find yourself in its hidden depths." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Rumi"
+            android:textSize="18dp"
+            android:id="@+id/txtAuthor"
+            android:fontFamily="sans-serif-black"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
