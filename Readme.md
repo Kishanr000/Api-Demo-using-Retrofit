@@ -46,8 +46,8 @@ Follow these instructions to set up and run the project locally.
 
 ## Screenshots
 
-![App Screenshot 1](screenshot_1.png)
-![App Screenshot 2](screenshot_2.png)
+![App Screenshot 1](Screenshot_1.png)
+![App Screenshot 2](Screenshot_2.png)
 
 ## Libraries Used
 
